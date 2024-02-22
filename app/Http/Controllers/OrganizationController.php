@@ -12,7 +12,7 @@ class OrganizationController extends Controller
      */
     public function index()
     {
-        //
+        //display all
         $organizations = Organization::all();
         //dd($contacts);
         //var_dump($contacts);
@@ -24,7 +24,7 @@ class OrganizationController extends Controller
      */
     public function create()
     {
-        //
+        //create crud
         return view('organizations.create');
     }
 
